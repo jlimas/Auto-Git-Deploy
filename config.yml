@@ -1,0 +1,7 @@
+hostname: ''
+port: 80
+repos:
+  - name: MSS Dock
+    url: http://docking/url
+  - name: QA Staging
+    url: http://staging/url
