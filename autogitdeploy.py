@@ -98,6 +98,7 @@ class AutoGitDeployServer(BaseHTTPRequestHandler):
         # Search the URL in the Repos
         for repo in cls.repos:
             if url == repo['url']:
+                # TODO: Implement the exec of the .sh deploy for the repo
                 print(f'Deploying Git Repo {repo["name"]}', file=sys.stdout)
 
 
